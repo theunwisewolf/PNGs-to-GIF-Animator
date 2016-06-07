@@ -1,4 +1,4 @@
-# PNGs-to-GIF-Animator
+# PNGs/JPEGs to GIFAnimator
 A simple app that converts a given set of PNGs and JPEGs to a single animated GIF.
 
 ## Usage
