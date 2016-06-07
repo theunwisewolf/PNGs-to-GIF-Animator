@@ -1,0 +1,93 @@
+/**
+ * Author: Amn;
+ */
+ 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600,700);
+body {
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway";
+}
+.box {
+	background: rgba(0,0,0,0.5);
+	padding: 10px;
+	border-radius: 3px;
+}
+h3 {
+	font-size: 28px;
+	color: #fff;
+	margin: 10px 0;
+	font-weight: lighter;
+}
+textarea {
+	width: 100%;
+	height: 100px;
+	background: rgba(0,0,0,0.6);
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 3px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-family: "Raleway";
+	outline: none;
+	color: #ccc;
+}
+.container {
+	margin-top: 100px;
+}
+.container .wrap {
+	width: 80%;
+	margin: auto;
+}
+.button {
+    background: rgba(255,0,0,0.5);
+    border: 0 none;
+    padding: 10px 12px;
+    border-radius: 3px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.error {
+	background: rgba(255,0,0,0.6);
+    color: #fff;
+    margin: 12px auto;
+    border-radius: 3px;
+    width: 80%;
+}
+.error .wrap {
+	padding: 10px;
+}
+.success {
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    margin: 12px auto;
+    border-radius: 3px;
+    width: 80%;
+}
+.success .wrap {
+    padding: 10px;
+}
+.author {
+	float: right;
+	color: #fff;
+	font-weight: 600;
+	margin-top: 12px;
+}
+.author a {
+	text-decoration: none;
+	color: rgba(255,0,0,0.8);
+}
+.finalImage {
+	display: block;
+	margin: 10px auto 20px auto;
+	width: 140px;
+	height: 140px;
+	border-radius: 3px;
+	box-shadow: 0 0 2px #000;
+}
